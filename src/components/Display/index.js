@@ -6,7 +6,7 @@ const mapStateToProps = state => {
   const { list } = state;
   const word = list.current;
   const definition =
-    word !== undefined || word !== undefined ? list.all[list.current] : null;
+    word !== null || word !== undefined ? list.all[list.current] : null;
   return { word, definition };
 };
 
