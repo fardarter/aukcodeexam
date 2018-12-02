@@ -1,0 +1,22 @@
+{
+  "name": "aukexam",
+  "version": "1.0.0",
+  "description": "AUK Code Exam",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "react": "16.6.3",
+    "react-dom": "16.6.3",
+    "react-redux": "5.1.1",
+    "redux": "4.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "16.7.11",
+    "@types/react-dom": "16.0.11",
+    "@types/react-redux": "6.0.10",
+    "parcel-bundler": "^1.6.1"
+  }
+}
